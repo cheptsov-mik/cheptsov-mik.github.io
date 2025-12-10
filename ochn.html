@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Справочник ДИЖТ</title>
+    <title>Очная форма обучения - ДИЖТ</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -58,7 +58,7 @@
             height: 100px;
             top: 70%;
             right: 15%;
-            animation: float 10s ease-inout infinite;
+            animation: float 10s ease-in-out infinite;
         }
         
         .bg-elements div:nth-child(3) {
@@ -79,7 +79,7 @@
         
         .container {
             width: 100%;
-            max-width: 500px;
+            max-width: 600px;
             background-color: rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(10px);
             border-radius: 20px;
@@ -88,50 +88,13 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
-        .header {
-            text-align: center;
-            margin-bottom: 25px;
-        }
-        
-        .logo {
-            width: 100%;
-            max-width: 200px;
-            height: auto;
-            margin: 0 auto 15px;
-            display: block;
-            border-radius: 50%;
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            transition: transform 0.5s ease;
-        }
-        
-        .logo:hover {
-            transform: scale(1.05);
-        }
-        
-        .title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #FFD700;
-            text-align: center;
-            line-height: 1.4;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        
-        .header p {
-            color: #FFA500;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-            font-weight: 500;
-        }
-        
         .schedule-section {
             text-align: center;
         }
         
         .schedule-title {
             font-size: 1.6rem;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             color: #fffacd;
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -167,7 +130,7 @@
             margin: 0 auto;
         }
         
-        .form-button {
+        .course-button {
             padding: 16px 25px;
             background: rgba(255, 255, 255, 0.2);
             color: #f5f5dc;
@@ -185,15 +148,38 @@
             gap: 10px;
         }
         
-        .form-button:hover {
+        .course-button:hover {
             background: rgba(255, 255, 255, 0.3);
             transform: translateY(-3px);
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
             color: #ffffff;
         }
         
-        .form-button:active {
+        .course-button:active {
             transform: translateY(0);
+        }
+        
+        .back-button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #d1e8ff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
         }
         
         .footer {
@@ -246,17 +232,13 @@
                 padding: 20px 15px;
             }
             
-            .title {
-                font-size: 1.3rem;
+            .schedule-title {
+                font-size: 1.4rem;
             }
             
-            .form-button {
+            .course-button {
                 padding: 14px 20px;
                 font-size: 1rem;
-            }
-            
-            .logo {
-                max-width: 160px;
             }
         }
     </style>
@@ -271,26 +253,35 @@
     </div>
     
     <div class="container">
-        <div class="header">
-            <img src="eks.jpg" alt="Эмблема ДИЖТ" class="logo">
-            <h1 class="title">Донецкий институт железнодорожного транспорта</h1>
-            <p>Официальный справочник для студентов</p>
-        </div>
-        
         <div class="schedule-section">
-            <h2 class="schedule-title">Расписание занятий</h2>
-            <p class="form-subtitle">Выберите форму обучения</p>
+            <h2 class="schedule-title">Расписание студентов очной формы обучения</h2>
             <div class="buttons-container">
-                <a href="ochn.html" class="form-button">
-                    <i class="fas fa-user-graduate"></i> Очная форма
+                <a href="1kurs.html" class="course-button">
+                    <i class="fas fa-graduation-cap"></i> Первый курс
                 </a>
-                <a href="ochn-zaochn.html" class="form-button">
-                    <i class="fas fa-users"></i> Очно-заочная форма
+                <a href="2kurs.html" class="course-button">
+                    <i class="fas fa-graduation-cap"></i> Второй курс
                 </a>
-                <a href="zaochn.html" class="form-button">
-                    <i class="fas fa-laptop-house"></i> Заочная форма
+                <a href="3kurs.html" class="course-button">
+                    <i class="fas fa-graduation-cap"></i> Третий курс
+                </a>
+                <a href="4kurs.html" class="course-button">
+                    <i class="fas fa-graduation-cap"></i> Четвертый курс
+                </a>
+                <a href="5kurs.html" class="course-button">
+                    <i class="fas fa-graduation-cap"></i> Пятый курс
+                </a>
+                <a href="mag1kurs.html" class="course-button">
+                    <i class="fas fa-graduation-cap"></i> Магистратура 1 курс
+                </a>
+                <a href="mag2kurs.html" class="course-button">
+                    <i class="fas fa-graduation-cap"></i> Магистратура 2 курс
                 </a>
             </div>
+            
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Назад к выбору формы обучения
+            </a>
         </div>
         
         <div class="info-panel">
