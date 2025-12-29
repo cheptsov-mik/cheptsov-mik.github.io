@@ -1,7 +1,7 @@
 # cheptsov-mik.github.io
-python main.py "1курс сессия.docx" 
+python main.py "1РєСѓСЂСЃ СЃРµСЃСЃРёСЏ.docx" 
 
 git add .
-git commit -m "Изменения расписания"
+git commit -m "РР·РјРµРЅРµРЅРёСЏ СЂР°СЃРїРёСЃР°РЅРёСЏ"
 git push -u origin main
 
