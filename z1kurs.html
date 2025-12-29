@@ -2,94 +2,155 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Converted Document</title>
 <style>
-body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
-table { border-collapse: collapse; width: 100%; margin: 15px 0; }
-td, th { border: 1px solid #ddd; padding: 8px; vertical-align: top; }
-th { background-color: #f2f2f2; font-weight: bold; }
-p { margin: 8px 0; }
-h1, h2, h3, h4, h5, h6 { margin: 16px 0 8px 0; }
+* { box-sizing: border-box; }
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 10px; 
+  line-height: 1.4; 
+  font-size: 12px; 
+  color: #333; 
+  background-color: #fff; 
+}
+.table-container { 
+  width: 100%; 
+  overflow-x: auto; 
+  margin: 10px 0; 
+  -webkit-overflow-scrolling: touch; 
+}
+table { 
+  border-collapse: collapse; 
+  width: 100%; 
+  min-width: 600px; 
+  font-size: 10px; 
+}
+td, th { 
+  border: 1px solid #ccc; 
+  padding: 6px; 
+  vertical-align: top; 
+  word-wrap: break-word; 
+  max-width: 200px; 
+}
+th { 
+  background-color: #f8f9fa; 
+  font-weight: bold; 
+}
+p { 
+  margin: 6px 0; 
+  font-size: 12px; 
+}
+h1 { font-size: 18px; margin: 12px 0 6px 0; }
+h2 { font-size: 16px; margin: 10px 0 5px 0; }
+h3 { font-size: 14px; margin: 8px 0 4px 0; }
+h4 { font-size: 13px; margin: 7px 0 3px 0; }
+h5 { font-size: 12px; margin: 6px 0 3px 0; }
+h6 { font-size: 11px; margin: 5px 0 2px 0; }
+@media (max-width: 480px) { 
+  body { margin: 5px; font-size: 11px; }
+  p { font-size: 11px; margin: 4px 0; }
+  td, th { padding: 4px; font-size: 9px; }
+  h1 { font-size: 16px; }
+  h2 { font-size: 14px; }
+  h3 { font-size: 13px; }
+  h4 { font-size: 12px; }
+  h5 { font-size: 11px; }
+  h6 { font-size: 10px; }
+}
+@media (max-width: 360px) { 
+  body { margin: 3px; font-size: 10px; }
+  p { font-size: 10px; margin: 3px 0; }
+  td, th { padding: 3px; font-size: 8px; }
+  h1 { font-size: 14px; }
+  h2 { font-size: 13px; }
+  h3 { font-size: 12px; }
+  h4 { font-size: 11px; }
+  h5 { font-size: 10px; }
+  h6 { font-size: 9px; }
+}
 </style>
 </head>
 <body>
-<p style="text-align: center"><span style="font-size: 14.0pt;">   РОСЖЕЛДОР</span></p>
-<p style="text-align: center"><span style="font-size: 14.0pt;">ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ</span></p>
-<p style="text-align: center"><span style="font-size: 14.0pt;">«ДОНЕЦКИЙ ИНСТИТУТ ЖЕЛЕЗНОДОРОЖНОГО ТРАНСПОРТА»</span></p>
-<p><span style="font-size: 14.0pt;">    </span><span style="font-size: 14.0pt;">	</span><span style="font-size: 14.0pt;">	</span><span style="font-size: 14.0pt;">	  </span><span style="font-size: 14.0pt;">	 УТВЕРЖДАЮ</span></p>
-<p><span style="font-size: 14.0pt;">                                                                                                                               </span><span style="font-size: 14.0pt;">	</span><span style="font-size: 14.0pt;">	</span><span style="font-size: 14.0pt;">	</span><span style="font-size: 14.0pt;">	 П</span><span style="font-size: 14.0pt;">ервый п</span><span style="font-size: 14.0pt;">роректор       </span></p>
-<p><span style="font-size: 14.0pt;">            доц. Доценко Ю.В.</span></p>
-<p style="text-align: center"><span style="font-size: 20.0pt;">Р А С П И С А Н И Е</span></p>
-<p style="text-align: center"><span style="font-size: 20.0pt;">ЭКЗАМЕНАЦИОННОЙ СЕССИИ 1 СЕМЕСТРА ДЛЯ СТУДЕНТОВ</span><span style="font-size: 20.0pt;"> </span><span style="font-size: 20.0pt;">1</span><span style="font-size: 20.0pt;"> КУРСА</span><span style="font-size: 20.0pt;"> З/Ф 202</span><span style="font-size: 20.0pt;">5</span><span style="font-size: 20.0pt;">-202</span><span style="font-size: 20.0pt;">6</span></p>
-<table border="1" style="border-collapse: collapse; width: 100%;">
+<p style="text-align: center"><span style="font-size: 9.799999999999999pt;">   РОСЖЕЛДОР</span></p>
+<p style="text-align: center"><span style="font-size: 9.799999999999999pt;">ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ</span></p>
+<p style="text-align: center"><span style="font-size: 9.799999999999999pt;">«ДОНЕЦКИЙ ИНСТИТУТ ЖЕЛЕЗНОДОРОЖНОГО ТРАНСПОРТА»</span></p>
+<p><span style="font-size: 9.799999999999999pt;">    </span><span style="font-size: 9.799999999999999pt;">	</span><span style="font-size: 9.799999999999999pt;">	</span><span style="font-size: 9.799999999999999pt;">	  </span><span style="font-size: 9.799999999999999pt;">	 УТВЕРЖДАЮ</span></p>
+<p><span style="font-size: 9.799999999999999pt;">                                                                                                                               </span><span style="font-size: 9.799999999999999pt;">	</span><span style="font-size: 9.799999999999999pt;">	</span><span style="font-size: 9.799999999999999pt;">	</span><span style="font-size: 9.799999999999999pt;">	 П</span><span style="font-size: 9.799999999999999pt;">ервый п</span><span style="font-size: 9.799999999999999pt;">роректор       </span></p>
+<p><span style="font-size: 9.799999999999999pt;">            доц. Доценко Ю.В.</span></p>
+<p style="text-align: center"><span style="font-size: 14.0pt;">Р А С П И С А Н И Е</span></p>
+<p style="text-align: center"><span style="font-size: 14.0pt;">ЭКЗАМЕНАЦИОННОЙ СЕССИИ 1 СЕМЕСТРА ДЛЯ СТУДЕНТОВ</span><span style="font-size: 14.0pt;"> </span><span style="font-size: 14.0pt;">1</span><span style="font-size: 14.0pt;"> КУРСА</span><span style="font-size: 14.0pt;"> З/Ф 202</span><span style="font-size: 14.0pt;">5</span><span style="font-size: 14.0pt;">-202</span><span style="font-size: 14.0pt;">6</span></p>
+<div class="table-container">
+<table>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 26.0pt;">Дата</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">1 </span><span style="font-weight: bold; font-size: 24.0pt;">ИСТ</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">1 АТ</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">1 С</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 18.2pt;">Дата</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">1 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">ИСТ</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">1 АТ</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">1 С</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">21.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Срд</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. </span><span style="font-size: 12.0pt;">Шелехов</span><span style="font-size: 12.0pt;"> Е.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">21.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Срд</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. </span><span style="font-size: 8.399999999999999pt;">Шелехов</span><span style="font-size: 8.399999999999999pt;"> Е.А.</span></p></td>
 <td style="text-align: center">&nbsp;</td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Физическая культура и спорт</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. </span><span style="font-size: 12.0pt;">Шумская</span><span style="font-size: 12.0pt;"> О.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Физическая культура и спорт</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. </span><span style="font-size: 8.399999999999999pt;">Шумская</span><span style="font-size: 8.399999999999999pt;"> О.А.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">22.01Чтв</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. Довженко С.В.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Физическая культура и спорт</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. </span><span style="font-size: 12.0pt;">Шумская</span><span style="font-size: 12.0pt;"> О.А.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. </span><span style="font-size: 12.0pt;">Шелехов</span><span style="font-size: 12.0pt;"> Е.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">22.01Чтв</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. Довженко С.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Физическая культура и спорт</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. </span><span style="font-size: 8.399999999999999pt;">Шумская</span><span style="font-size: 8.399999999999999pt;"> О.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. </span><span style="font-size: 8.399999999999999pt;">Шелехов</span><span style="font-size: 8.399999999999999pt;"> Е.А.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">23.01Птн</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">10-30 </span><span style="font-size: 12.0pt;">Иностранный язык</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. </span><span style="font-size: 12.0pt;">Полонникова</span><span style="font-size: 12.0pt;"> О.Л.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. Довженко С.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">23.01Птн</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">10-30 </span><span style="font-size: 8.399999999999999pt;">Иностранный язык</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. </span><span style="font-size: 8.399999999999999pt;">Полонникова</span><span style="font-size: 8.399999999999999pt;"> О.Л.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. Довженко С.В.</span></p></td>
 <td style="text-align: center">&nbsp;</td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">24.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Суб</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Физика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Козловская И.К.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. </span><span style="font-size: 12.0pt;">Шелехов</span><span style="font-size: 12.0pt;"> Е.А.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. Довженко С.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">24.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Суб</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Физика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Козловская И.К.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. </span><span style="font-size: 8.399999999999999pt;">Шелехов</span><span style="font-size: 8.399999999999999pt;"> Е.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. Довженко С.В.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">24.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Суб</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">14-30 </span><span style="font-size: 12.0pt;">Математика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. </span><span style="font-size: 12.0pt;">Орфиняк</span><span style="font-size: 12.0pt;"> Е.Ю.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. </span><span style="font-size: 12.0pt;">Шелехов</span><span style="font-size: 12.0pt;"> Е.А.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. Довженко С.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">24.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Суб</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">14-30 </span><span style="font-size: 8.399999999999999pt;">Математика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. </span><span style="font-size: 8.399999999999999pt;">Орфиняк</span><span style="font-size: 8.399999999999999pt;"> Е.Ю.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">История России</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. </span><span style="font-size: 8.399999999999999pt;">Шелехов</span><span style="font-size: 8.399999999999999pt;"> Е.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Основы российской государственности</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. Довженко С.В.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">26.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Пнд</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Математика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. </span><span style="font-size: 12.0pt;">Орфиняк</span><span style="font-size: 12.0pt;"> </span><span style="font-size: 12.0pt;">Е.Ю..</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">12-45 </span><span style="font-size: 12.0pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Железняков А.Н.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">. </span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">10-30 </span><span style="font-size: 12.0pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">КОНСУЛЬТАЦИЯ </span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Доценко Ю.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">26.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Пнд</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Математика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. </span><span style="font-size: 8.399999999999999pt;">Орфиняк</span><span style="font-size: 8.399999999999999pt;"> </span><span style="font-size: 8.399999999999999pt;">Е.Ю..</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">12-45 </span><span style="font-size: 8.399999999999999pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Железняков А.Н.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">. </span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">10-30 </span><span style="font-size: 8.399999999999999pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">КОНСУЛЬТАЦИЯ </span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Доценко Ю.В.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">26.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Пнд</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">16-00 </span><span style="font-size: 12.0pt;">Основы программирования</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. </span><span style="font-size: 12.0pt;">Радковский</span><span style="font-size: 12.0pt;"> С.А.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">12-45 </span><span style="font-size: 12.0pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Железняков А.Н.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">. </span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">10-30 </span><span style="font-size: 12.0pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">КОНСУЛЬТАЦИЯ </span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Доценко Ю.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">26.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Пнд</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">16-00 </span><span style="font-size: 8.399999999999999pt;">Основы программирования</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. </span><span style="font-size: 8.399999999999999pt;">Радковский</span><span style="font-size: 8.399999999999999pt;"> С.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">12-45 </span><span style="font-size: 8.399999999999999pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЗАЧЕТ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Железняков А.Н.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">. </span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">10-30 </span><span style="font-size: 8.399999999999999pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">КОНСУЛЬТАЦИЯ </span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Доценко Ю.В.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">27.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Втр</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Основы программирования</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. </span><span style="font-size: 12.0pt;">Радковский</span><span style="font-size: 12.0pt;"> С.А.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-</span><span style="font-size: 12.0pt;">00 </span><span style="font-size: 12.0pt;"> Общий</span><span style="font-size: 12.0pt;"> курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">КОНСУЛЬТАЦИЯ </span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Доценко Ю.В.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">10-30 </span><span style="font-size: 12.0pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Доценко Ю.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">27.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Втр</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Основы программирования</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. </span><span style="font-size: 8.399999999999999pt;">Радковский</span><span style="font-size: 8.399999999999999pt;"> С.А.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-</span><span style="font-size: 8.399999999999999pt;">00 </span><span style="font-size: 8.399999999999999pt;"> Общий</span><span style="font-size: 8.399999999999999pt;"> курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">КОНСУЛЬТАЦИЯ </span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Доценко Ю.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">10-30 </span><span style="font-size: 8.399999999999999pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Доценко Ю.В.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">28.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Срд</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Дискретная математика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. </span><span style="font-size: 12.0pt;">Здебский</span><span style="font-size: 12.0pt;"> А.В.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Доценко Ю.В.</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Железняков А.Н.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">28.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Срд</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Дискретная математика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. </span><span style="font-size: 8.399999999999999pt;">Здебский</span><span style="font-size: 8.399999999999999pt;"> А.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Общий курс железных дорог</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Доценко Ю.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">КОНСУЛЬТАЦИЯ</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Железняков А.Н.</span></p></td>
 </tr>
 <tr>
-<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 24.0pt;">29.01 </span><span style="font-weight: bold; font-size: 24.0pt;">Чтв</span></p></td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Дискретная математика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Ст. пр. </span><span style="font-size: 12.0pt;">Здебский</span><span style="font-size: 12.0pt;"> А.В.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-weight: bold; font-size: 16.799999999999997pt;">29.01 </span><span style="font-weight: bold; font-size: 16.799999999999997pt;">Чтв</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Дискретная математика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Ст. пр. </span><span style="font-size: 8.399999999999999pt;">Здебский</span><span style="font-size: 8.399999999999999pt;"> А.В.</span></p></td>
 <td style="text-align: center">&nbsp;</td>
-<td style="text-align: center"><p style="text-align: center"><span style="font-size: 12.0pt;">9-00 </span><span style="font-size: 12.0pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 12.0pt;">Доц. Железняков А.Н.</span></p></td>
+<td style="text-align: center"><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">9-00 </span><span style="font-size: 8.399999999999999pt;">Информатика</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">ЭКЗАМЕН</span></p><br><p style="text-align: center"><span style="font-size: 8.399999999999999pt;">Доц. Железняков А.Н.</span></p></td>
 </tr>
 </table>
-<p><span style="font-size: 14.0pt;">Декан факультету ИЭЖТ</span><span style="font-size: 14.0pt;">	</span><span style="font-size: 14.0pt;">                      </span><span style="font-size: 14.0pt;">	Доц. </span><span style="font-size: 14.0pt;">Ордашевская</span><span style="font-size: 14.0pt;"> И.В.</span></p>
-<hr style="margin: 20px 0;">
+</div>
+<p><span style="font-size: 9.799999999999999pt;">Декан факультету ИЭЖТ</span><span style="font-size: 9.799999999999999pt;">	</span><span style="font-size: 9.799999999999999pt;">                      </span><span style="font-size: 9.799999999999999pt;">	Доц. </span><span style="font-size: 9.799999999999999pt;">Ордашевская</span><span style="font-size: 9.799999999999999pt;"> И.В.</span></p>
+<hr style="margin: 15px 0; border: 0; border-top: 1px solid #ccc;">
 </body>
 </html>
