@@ -105,9 +105,9 @@ def process_paragraph(paragraph):
             styles.append('font-size: 10pt;')
         
         # Цвет текста
-        if run.font.color and run.font.color.rgb:
-            rgb_hex = f'#{run.font.color.rgb:06x}'
-            styles.append(f'color: {rgb_hex};')
+#        if run.font.color and run.font.color.rgb:
+#            rgb_hex = f'#{run.font.color.rgb:06x}'
+#            styles.append(f'color: {rgb_hex};')
         
         text = escape(run.text)
         
